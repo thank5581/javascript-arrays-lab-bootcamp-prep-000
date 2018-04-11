@@ -13,7 +13,7 @@ function destructivelyPrependKitten(name){
    despre.unshift(name);
    return despre;
 }
-function destructivelyRemoveFirstKitten(){
+function destructivelyRemoveLastKitten(){
    var desremvlast = kittens;
    desremvlast.pop();
    return desremvlast;
